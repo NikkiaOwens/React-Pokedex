@@ -28,7 +28,7 @@ const Pokemon = (props) => {
     return (
       <>
         <Typography variant="h1" align="center">
-          {/* {`${id}.`} {toFirstCharUppercase(name)} */}
+          {/* {`${id}..`} {toFirstCharUppercase(name)} */}
           {toFirstCharUppercase(name)}
           <img src={front_default} />
         </Typography>
