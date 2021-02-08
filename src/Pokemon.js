@@ -27,8 +27,9 @@ const Pokemon = (props) => {
     const { front_default } = sprites;
     return (
       <>
-        <Typography variant="h1">
-          {`${id}.`} {toFirstCharUppercase(name)}
+        <Typography variant="h1" align="center">
+          {/* {`${id}.`} {toFirstCharUppercase(name)} */}
+          {toFirstCharUppercase(name)}
           <img src={front_default} />
         </Typography>
         <img style={{ width: "300px", height: "300px" }} src={fullImageUrl} />

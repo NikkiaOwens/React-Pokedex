@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { AppBar, Toolbar, Grid, Card, CardContent, CircularProgress, CardMedia, Typography, IconButton } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
-import mockData from './mockData';
+
 import { toFirstCharUppercase } from './constants';
 import axios from 'axios';
 const useStyles = makeStyles({
